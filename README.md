@@ -15,12 +15,12 @@ This repository showcases a comprehensive **Business Intelligence and Analytics*
 
 ```mermaid
 graph LR
-   A[Bronze Layer<br/>Raw Data] --> B[Silver Layer<br/>Cleaned Data]
-   B --> C[Gold Layer<br/>Business Ready]
-   C --> D[Analytics Views]
-   C --> E[Customer Reports]
-   C --> F[Product Reports]
-   D --> G[Business Intelligence<br/>Dashboards]
+    A[Bronze Layer<br/>Raw Data] --> B[Silver Layer<br/>Cleaned Data]
+    B --> C[Gold Layer<br/>Business Ready]
+    C --> D[Analytics Views]
+    C --> E[Customer Reports]
+    C --> F[Product Reports]
+    D --> G[Business Intelligence<br/>Dashboards]
 
 Data Flow
 
