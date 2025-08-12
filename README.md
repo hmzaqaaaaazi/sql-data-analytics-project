@@ -13,14 +13,12 @@ This repository showcases a comprehensive **Business Intelligence and Analytics*
 
 ## 🏗️ Architecture Overview
 
-```mermaid
-graph LR
-    A[Bronze Layer<br/>Raw Data] --> B[Silver Layer<br/>Cleaned Data]
-    B --> C[Gold Layer<br/>Business Ready]
-    C --> D[Analytics Views]
-    C --> E[Customer Reports]
-    C --> F[Product Reports]
-    D --> G[Business Intelligence<br/>Dashboards]
+| Layer | Purpose | Content |
+|-------|---------|---------|
+| 🥉 **Bronze** | Raw Data Storage | Unprocessed data from CRM/ERP systems |
+| 🥈 **Silver** | Data Processing | Cleaned, validated, standardized data |
+| 🥇 **Gold** | Business Ready | Fact tables, dimension tables, business logic |
+| 📊 **Analytics** | Intelligence | Customer reports, product analytics, KPIs |
 
 Data Flow
 
